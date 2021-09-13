@@ -12,6 +12,8 @@ public class Teste {
 		//Generics
 		ArrayList<Conta> lista = new ArrayList<Conta>();
 		
+		ArrayList<String> nomes = new ArrayList<String>(); 
+		
 		Conta cc = new ContaCorrente(22, 11);
 		lista.add(cc);
 
